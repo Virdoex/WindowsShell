@@ -5,7 +5,7 @@ import subprocess
 
 
 sock=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-sock.connect(("192.168.100.150",9000))
+sock.connect(("ip as in the server_tcp.py",9000))
 while(1):
 	command=sock.recv(2048)
 
