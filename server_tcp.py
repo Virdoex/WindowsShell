@@ -16,4 +16,8 @@ while(1):
 		break
 	else:
 		client.send(command)
+		data = client.recv(2048)
+		print data
+		
+		
 	
